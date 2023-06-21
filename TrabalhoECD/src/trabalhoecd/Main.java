@@ -49,16 +49,16 @@ public class Main {
                     fimExec = System.currentTimeMillis();
                     
                     tempoExec = (fimExec - inicioExec)*0.0001;
-                    
+                    message += "Vetor original:\n";
                     for (int i = 0; i < 10; i++) {
                         message += " "+vetAntigo[i];
                     }
-                    message += "...\n";
+                    message += "...\nVetor Ordenado:\n";
                     
                     for (int i = 0; i < 10; i++) {
                         message += " "+vetNovo[i];
                     }
-                    message += "...\n Tempo de Execução: "+tempoExec+"ms";
+                    message += "...\nTempo de Execução: "+tempoExec+"ms";
                     
                     JOptionPane.showMessageDialog(null, message);
                     break;
@@ -72,16 +72,16 @@ public class Main {
                     fimExec = System.currentTimeMillis();
                     
                     tempoExec = (fimExec - inicioExec)*0.0001;
-                    
+                    message += "Vetor original:\n";
                     for (int i = 0; i < 10; i++) {
                         message += " "+vetAntigo[i];
                     }
-                    message += "...\n";
+                    message += "...\nVetor Ordenado:\n";
                     
                     for (int i = 0; i < 10; i++) {
                         message += " "+vetNovo[i];
                     }
-                    message += "...\n Tempo de Execução: "+tempoExec+"ms";
+                    message += "...\nTempo de Execução: "+tempoExec+"ms";
                     
                     JOptionPane.showMessageDialog(null, message);
                     break;
@@ -96,16 +96,16 @@ public class Main {
                     fimExec = System.currentTimeMillis();
                     
                     tempoExec = (fimExec - inicioExec)*0.0001;
-                    
+                    message += "Vetor original:\n";
                     for (int i = 0; i < 10; i++) {
                         message += " "+vetAntigo[i];
                     }
-                    message += "...\n";
+                    message += "...\nVetor Ordenado:\n";
                     
                     for (int i = 0; i < 10; i++) {
                         message += " "+vetNovo[i];
                     }
-                    message += "...\n Tempo de Execução: "+tempoExec+"ms";
+                    message += "...\nTempo de Execução: "+tempoExec+"ms";
                     
                     JOptionPane.showMessageDialog(null, message);
                     break;
